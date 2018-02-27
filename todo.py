@@ -70,7 +70,7 @@ def setup():
     task_list.save_task({'description' : "This is an active task.", 'status' : "0"})
 
 setup()
-application = default_app()
+#application = default_app()
 debug(True)
-#run(host='localhost', port=8080)
+run(host='0.0.0.0', port=8080)
 
